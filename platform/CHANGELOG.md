@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.2.75](https://github.com/archestra-ai/archestra/compare/platform-v1.2.74...platform-v1.2.75) (2026-06-28)
+
+
+### Features
+
+* add "Test your setup" step to "Connect" page ([#5931](https://github.com/archestra-ai/archestra/issues/5931)) ([0e42a9b](https://github.com/archestra-ai/archestra/commit/0e42a9b4fa0ea9722ab3cf9ae510cbc7a327905b))
+* add passthrough virtual keys for Claude to the connect page ([#5926](https://github.com/archestra-ai/archestra/issues/5926)) ([3d481ce](https://github.com/archestra-ai/archestra/commit/3d481ce8ee77508c0e1352557f4bc75587a17772))
+* authenticate llm proxy users ([#5915](https://github.com/archestra-ai/archestra/issues/5915)) ([4523ae8](https://github.com/archestra-ai/archestra/commit/4523ae86ca9693336b21a0a9a2c4c3ce5ac55f6e))
+* **chat:** shared SkillPill + consistent 16px rhythm across the message stream ([#5930](https://github.com/archestra-ai/archestra/issues/5930)) ([0dbc09e](https://github.com/archestra-ai/archestra/commit/0dbc09e7e7aa7581c18892cc976dfd292baf3ced))
+* **files:** S3-compatible storage for My Files ([#5840](https://github.com/archestra-ai/archestra/issues/5840)) ([83d79c4](https://github.com/archestra-ai/archestra/commit/83d79c48c684261b4f4266e535653569c4e28c2c))
+* generate claude desktop connection configuration file ([#5937](https://github.com/archestra-ai/archestra/issues/5937)) ([475fd5d](https://github.com/archestra-ai/archestra/commit/475fd5d4833110ad371af23c4cbd8240d86e6faf))
+* **projects:** create a project from a chat ([#5909](https://github.com/archestra-ai/archestra/issues/5909)) ([ed97412](https://github.com/archestra-ai/archestra/commit/ed97412b14bd430e34717514f13f6008cd0251e6))
+* redesign llm logs ([#5918](https://github.com/archestra-ai/archestra/issues/5918)) ([fef80cc](https://github.com/archestra-ai/archestra/commit/fef80ccd644d2858ecd3bd0c8a6c065b49ed9825))
+
+
+### Bug Fixes
+
+* **agents:** gate owner filter on resource admin, not member:read ([#5913](https://github.com/archestra-ai/archestra/issues/5913)) ([0912fa9](https://github.com/archestra-ai/archestra/commit/0912fa9a1f26d3e67314600b806a3dcdb95044b3))
+* apply user role permissions to test claude connection button ([#5943](https://github.com/archestra-ai/archestra/issues/5943)) ([b687c60](https://github.com/archestra-ai/archestra/commit/b687c60acd19a63f33c83464cf18984dbd0f92d8))
+* fixed the uneven padding in agent badge ([#5906](https://github.com/archestra-ai/archestra/issues/5906)) ([6146e8a](https://github.com/archestra-ai/archestra/commit/6146e8a41007f1ea61e91506a70be3bf851d5ffe))
+* **mcp:** preserve tools & guardrails on connection loss; derive tool availability ([#5916](https://github.com/archestra-ai/archestra/issues/5916)) ([9e43974](https://github.com/archestra-ai/archestra/commit/9e4397498ce06f0b70a5b6430041bcb03eacd382))
+* remove redundant allowed llm proxies from virtual keys ([#5942](https://github.com/archestra-ai/archestra/issues/5942)) ([4b103d9](https://github.com/archestra-ai/archestra/commit/4b103d90be38556f0d77e652b3fb3c649cefd625))
+
+
+### Miscellaneous Chores
+
+* **projects:** simplify project files panel header ([#5929](https://github.com/archestra-ai/archestra/issues/5929)) ([a797e43](https://github.com/archestra-ai/archestra/commit/a797e4314a018a8c8626cb06bf07396dcce48183))
+
 ## [1.2.74](https://github.com/archestra-ai/archestra/compare/platform-v1.2.73...platform-v1.2.74) (2026-06-26)
 
 
